@@ -32,3 +32,19 @@ The agent will write or update the appropriate roadmap file and commit it.
 - A task list or sprint board — keep that in your issue tracker
 - A place for raw notes — paste those to the agent and it will structure them
 - A place for stakeholder output — generated artifacts live in `outputs/`
+
+## Validation
+
+Use the validator to quickly check whether roadmap entries include the baseline fields from `CLAUDE.md`:
+
+```bash
+python3 scripts/validate_roadmaps.py
+```
+
+The validator checks each `###` roadmap item in `roadmap/*.md` (excluding `README.md` and `_template.md`) for:
+
+- `Status`
+- `Owner`
+- `Quarter`
+- `Priority`
+- `Tags`

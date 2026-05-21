@@ -6,6 +6,12 @@ You tell the agent what you're building. It structures everything, maintains con
 
 ---
 
+## Roadmaps
+
+- [Example Roadmap (Q1 2026)](roadmap/example-roadmap.md) — Worked example showing canonical structure
+
+---
+
 ## Getting started
 
 **1. Use this template**
